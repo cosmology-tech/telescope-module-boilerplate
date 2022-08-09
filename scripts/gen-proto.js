@@ -25,4 +25,6 @@ telescope({
       camelCase: true
     }
   }
+}).then(() => {
+  console.log('✨ all done!');
 });
