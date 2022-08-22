@@ -8,11 +8,13 @@ telescope({
   protoDirs,
   outPath,
   options: {
-    includePackageVar: false,
-    typingsFormat: {
-      useExact: false,
-      timestamp: 'date',
-      duration: 'duration'
+    prototypes: {
+      includePackageVar: false,
+      typingsFormat: {
+        useExact: false,
+        timestamp: 'date',
+        duration: 'duration'
+      }
     },
     aminoEncoding: {
       enabled: true
