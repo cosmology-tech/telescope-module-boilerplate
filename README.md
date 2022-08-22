@@ -1,2 +1,7 @@
 
 # readme
+
+```
+yarn 
+yarn codegen
+```
