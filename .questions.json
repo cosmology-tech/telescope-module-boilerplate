@@ -1,5 +1,10 @@
 [
   {
+    "name": "__CHAINNAME__",
+    "message": "Enter chain name in all lowercase, e.g. osmosis",
+    "required": true
+  },
+  {
     "name": "__USERFULLNAME__",
     "message": "Enter author full name",
     "required": true
@@ -27,7 +32,10 @@
   {
     "name": "__ACCESS__",
     "message": "Module access?",
-    "choices": ["restricted", "public"],
+    "choices": [
+      "restricted",
+      "public"
+    ],
     "type": "list",
     "required": true
   }
