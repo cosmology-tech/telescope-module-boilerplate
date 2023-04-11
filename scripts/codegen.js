@@ -1,6 +1,6 @@
 import { join } from 'path';
 import telescope from '@osmonauts/telescope';
-import { sync as rimraf } from 'rimraf';
+import { rimrafSync as rimraf } from 'rimraf';
 import { AMINO_MAP } from './aminos';
 
 const protoDirs = [join(__dirname, '/../proto')];
