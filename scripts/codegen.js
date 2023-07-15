@@ -1,5 +1,5 @@
 const { join } = require('path');
-const telescope = require('@osmonauts/telescope');
+const telescope = require('@osmonauts/telescope').default;
 const rimraf = require('rimraf').rimrafSync;
 const { AMINO_MAP } = require('./aminos');
 
@@ -54,7 +54,7 @@ telescope({
           'cosmos.params.v1beta1',
           'cosmos.slashing.v1beta1',
           'cosmos.vesting.v1beta1',
-          'google.api',
+          // 'google.api',
           'ibc.core.port.v1',
           'ibc.core.types.v1'
         ]
