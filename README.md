@@ -270,7 +270,7 @@ yarn codegen
 Build the types and then publish:
 
 ```
-yarn build:ts
+yarn build
 yarn publish
 ```
 ## Credits
