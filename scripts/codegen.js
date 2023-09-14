@@ -86,8 +86,7 @@ telescope({
     },
     aminoEncoding: {
       enabled: true,
-      exceptions: AMINO_MAP,
-      useRecursiveV2encoding: true
+      exceptions: AMINO_MAP
     },
     lcdClients: {
       enabled: false
